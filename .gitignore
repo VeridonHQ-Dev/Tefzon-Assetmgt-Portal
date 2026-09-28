@@ -1,0 +1,33 @@
+# Ignore uploaded files and assets, preserve directory structure
+uploads/assets/*
+!uploads/assets/.gitkeep
+uploads/barcodes/*
+!uploads/barcodes/.gitkeep
+
+# Ignore database dumps/backups, but keep project schema
+*.sql
+!database.sql
+
+# Ignore environment files and sensitive data
+.env
+*.env
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore IDE and editor configurations
+.vscode/
+.idea/
+
+# Ignore PHP temp/cache
+*.tmp
+cache/
+tmp/
+
+# Ignore node modules if present
+node_modules/
+
+# Ignore log files
+*.log
